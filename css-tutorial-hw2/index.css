@@ -1,0 +1,94 @@
+body {
+    margin: 7px;
+    padding: 0;
+    box-sizing: border-box; /*kutunun genişlik ve yükseklik degerinin padding ve border degerlerini de icermesini saglar*/
+}
+
+.container {
+    text-align: -webkit-center;
+    display: block;
+    min-width: 550px;
+    align-items: stretch;
+}
+
+label {
+    display: block;
+    text-align: center;
+    width: 320px;
+}
+
+.search-box {
+    display: inline-block;
+    width: 335px;
+}
+
+.search-container {
+    background-color: rgb(238, 238, 238);
+    padding: 2px;
+    margin: 0 70px;
+}
+
+.siblings {
+    margin: 2px 70px;
+    display: flex;
+    text-align: center;
+    height: 80px;
+}
+
+.special-container {
+    background-color: rgb(126, 229, 218);
+    border-right: 2px solid white;
+    padding-right: 15%;
+    width: 22%;
+    border-spacing: 2px;
+}
+
+.help-container {
+    background-color: #70ccc2;
+    border-right: 2px solid white;
+    width: 19%;
+}
+.get-google-container {
+    background-color: #62b3aa;
+    width: 365px;
+    width: 45%;
+}
+
+.p-copy {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.copyright {
+    font-size: small;
+    margin: 1px 70px;
+    text-align: center;
+    align-items: center;
+    clear: both;
+}
+
+.ul1 {
+    list-style: none;
+    font-size: 16px;
+    padding: 0 auto;
+    margin: 12px auto;
+    padding-left: 55%;
+}
+
+.ul2 {
+    list-style: none;
+    font-size: 13px;
+    padding: 0 auto;
+    margin: 8px auto;
+    padding-left: 12%;
+}
+
+.ul3 {
+    list-style: none;
+    font-size: 13px;
+    padding: 0 auto;
+    margin: 2px auto;
+    padding-left: 2%;
+}
